@@ -1,0 +1,248 @@
+:root {
+  --main-background-color: #121212;
+  --background-color: #121212;
+  --secondBackground-color: #1E1E1E;
+  --cricle-Color:#1B1b1b;
+  --effect-color: #00FFF7;             
+  --font-color:#FFFFFF;
+  --secondfont-color:  #B3B3B3;
+  --navColor: #03bfb2;
+}
+
+
+.container{
+    width: 80%;
+}
+.fontColor{
+    color: var(--font-color);
+}
+.secondfontColor{
+    color: var(--secondfont-color);
+}
+.fontFamilyHeader{
+    font-family: "Delius", cursive;
+}
+.fontFamilybody{
+    font-family: "Open Sans", sans-serif;
+}
+.fontFamilybody2{
+    font-family: "Libre Baskerville", serif;
+    font-size: large;
+}
+ 
+.mainbackgroundColor{
+    background-color: var(--background-color);
+}
+.SecondbackgroundColor{
+    background-color: var(--secondBackground-color);
+}
+.fonteffect{
+    color: var(--effect-color);
+}
+.backgroundreffect{
+    background-color: var(--effect-color);
+}
+.navColor{
+    background-color:transparent;
+}
+
+.text{
+    color: #00D9BF;
+}
+
+.cardbg{
+    background-color: var(--cricle-Color);
+}
+
+.height{
+    min-height: 94dvh;
+}
+
+
+
+
+#Home{
+    min-height: 110dvh;
+    z-index: 1;
+    background-color: var(--main-background-color);
+}
+.imageHover{
+    box-shadow: 10px 10px 10px var(--effect-color) ;
+}
+
+.skillCradHover{
+    transition: all 1s;
+}
+.skillCradHover:hover{
+    transform: scale(1.108);
+    background-color: var(--background-color);
+}
+.skillCradHover:hover .skillBodyHover{
+    color: var(--font-color);
+    background-color: var(--background-color);
+
+}
+.skillBodyHover{
+    transition: all 1s;
+}
+
+.fontHover{
+    transition: all 1s;
+}
+.skillCradHover:hover .fontHover{
+    color: var(--font-color);
+
+}
+
+.modelBorder{
+    border-bottom: 1px solid var(--effect-color);
+}
+
+.buttonHover{
+    background-color: var(--navColor);
+    color: var(--font-color);
+    border: none;
+    transition: all 0.2s;
+}
+.buttonHover:hover{
+    background-color: var(--secondBackground-color);
+    color: var(--effect-color);
+}
+.buttonLight{
+    background-color: transparent;
+    border: 1px solid white;
+    color: var(--effect-color);
+    transition: all 0.2s;
+}
+.buttonLight:hover{
+    background-color: white;
+    color: var(--background-color);
+}
+.imageDiv1{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: #01cabc 10px solid;
+    /* background-color: var(--cricle-Color); */
+    /* border-radius: 50%; */
+    border-radius: 20px;
+}
+.imageDiv2{
+    top: 20px;
+    left: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.colpos{
+    height: 450px;
+}
+
+.cardHover{
+    
+    transition: all 1s;
+}
+.cardHover:hover{
+    transform: scale(1.075);
+}
+.bodyHover{
+    transition: all 1s;
+}
+.cardHover:hover .bodyHover{
+    background-color: var(--background-color);
+}
+
+.img-width{
+    width: 60px;
+}
+.icons-hovend{
+    color: var(--secondfont-color);
+    font-size: 30px;
+}
+.icons-hovend:hover{
+    color: var(--effect-color);
+}
+
+
+.divcricle{
+    height: 500px;
+    width: 500px;
+    background-color: var(--cricle-Color);
+    position: absolute;
+    bottom: -60px;
+    right: -90px;
+    border-radius: 50%;
+    opacity: 0.3;
+    rotate: 35deg;
+    z-index: -1;
+}
+
+.divcricle1{
+    height: 450px;
+    width: 450px;
+    background-color: var(--cricle-Color);
+    position: absolute;
+    top: -60px;
+    left: -90px;
+    border-radius: 50%;
+    opacity: 0.3;
+    rotate: 35deg;
+    z-index: -1;
+    
+}
+
+.Hover{
+    transition: all 0.1s;
+}
+.Hover:hover{
+    color: var(--effect-color);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--effect-color);
+}
+
+
+@media screen and (max-width: 768px) {
+    .colpos{
+        height: 300px;
+        width:100%;
+    }
+    .imageDiv1{
+        top: 0px;
+        left: 0px;
+    }
+    .imageDiv2{
+        top: 20px;
+        left: 20px;
+    }
+    .fontdisplay{
+        text-align: center;
+    }
+    .divcricle{
+        height: 300px;
+        width: 300px;
+    }
+    .divcricle1{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .media{
+        font-size: 35px;
+    }
+    .contantmedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }  
+    .divcricle1{
+        height: 240px;
+        width: 240px;
+    }  
+}
+
