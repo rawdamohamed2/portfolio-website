@@ -3,11 +3,10 @@
     height: 240px;
 }
 .projectHover{
-
     transition: all 0.9s;
 }
 .projectHover:hover{
     transform: scale(1.05); 
-    box-shadow: 0px 0px 5px var(--effect-color);
+    box-shadow: 0px 0px 10px var(--effect-color);
 }
 
