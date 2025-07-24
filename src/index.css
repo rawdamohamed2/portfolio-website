@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --main-background-color: #1212123b;
+  --background-color: #1e1e1e;
+  --Mbackground-color:#121212;
+  --secondBackground-color: #1e1e1e3b;
+  --cricle-Color:#1B1b1b;
+  --effect-color: #00FFF7; 
+  --linkColor: #00FFF7;            
+  --font-color:#FFFFFF;
+  --secondfont-color:  #B3B3B3;
+  --navColor: #03bfb2;
+  --font-family:"Open Sans", sans-serif;
+}
+:root.light-mode {
+  --main-background-color: #f0f0f059;
+  --background-color: #ffffff;
+  --Mbackground-color: #EDEDED;
+  --secondBackground-color: #EDEDED3d;
+  --cricle-Color: #e5e5e5;
+  --linkColor: #02b1ab;
+  --effect-color: #01e3db; /* نسخة أفتح من الـ teal */
+  --font-color: #000000;
+  --secondfont-color: #555555;
+  --navColor: #00a89c; /* أفتح برضو لكن نفس الاتجاه */
+  --font-family: "Open Sans", sans-serif;
+}
+
+body{
+  background-color : var(--Mbackground-color);
+  font-family: var(--font-family);
+  color: var(--font-color);
+}
+html{
+  scroll-behavior: smooth;
+}
+.mainBgcolor{
+  background-color: var(--main-background-color);
+}
+.secondBgcolor{
+  background-color: var(--secondBackground-color);
+}
+.fontfamily{
+  font-family:"Delius", cursive;
+  font-weight: 1000;
+  font-size: 30px;
+}
+.navbar-scrolled {
+  background-color: var(--cricle-Color);
+  transition: background-color 0.1s ease;
+}
+.navbar-default{
+  background-color: transparent;
+  transition: background-color 0.1s ease;
+}
+.fontfamilyheader{
+  font-family:"Delius", cursive;
+}
+.nav-link{
+  color: var(--font-color);
+  transition: all 0.2s;
+}
+.navbar-brand:hover{
+  color: var(--effect-color);
+}
+.nav-link:hover{
+  color: var(--effect-color);
+}
+.navbar-brand{
+  color: var(--font-color);
+  transition: all 0.2s;
+}
+
+.secondfontColor{
+    color: var(--secondfont-color);
+}
+.fontColor{
+    color: var(--font-color);
+}
+.fontEffect{
+    color: var(--effect-color);
+}
+.backgroundreffect{
+    background-color: var(--effect-color);
+}
+.navColor{
+    background-color:transparent;
+}
+.cardbg{
+    background-color: var(--background-color);
+}
+
+.height{
+  min-height: 94dvh;
+}
+.start{
+  margin-top: 80px;
+}
+.buttonHover{
+    background-color: var(--navColor);
+    color: var(--font-color);
+    box-shadow: none;
+    transition: all 0.2s;
+}
+.buttonHover:hover{
+    background-color: var(--secondBackground-color);
+    color: var(--effect-color);
+    box-shadow: 0px 0px 15px var(--effect-color);
+}
+.buttonLight{
+    background-color: transparent;
+    border: 1px solid var(--font-color);
+    color: var(--effect-color);
+    box-shadow: none;
+    transition: all 0.2s;
+}
+.buttonLight:hover{
+    background-color: var(--secondBackground-color);
+    color: var(--font-color);
+    border: 1px solid var(--effect-color);
+    box-shadow: 0px 0px 7px var(--effect-color);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--effect-color);
+}
+.active{
+  color: var(--effect-color);
+  border-bottom: var(--effect-color) solid 1px;
+}
+.icons-hovend{
+    color: var(--secondfont-color);
+    font-size: 30px;
+}
+.icons-hovend:hover{
+    color: var(--effect-color);
+}
+.height{
+  min-height: 89dvh;
+  
+}
+.fontsize{
+  font-size: 1.03rem;
+}
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+.buttonsize{
+  width: 200px;
+  height: 45px;
+}
+@media screen and (max-width: 768px) {
+    .fontdisplay{
+        text-align: center;
+    }
+    .container{
+      overflow: hidden;
+    }
+  }
+
+@media screen and (max-width:576px) {
+    .container{
+      overflow: hidden !important;
+    }
+    
+}

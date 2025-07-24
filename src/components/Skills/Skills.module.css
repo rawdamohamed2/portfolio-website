@@ -1,0 +1,25 @@
+.skillCradHover{
+    transition: all 1s;
+}
+.skillCradHover:hover{
+    transform: scale(1.103);
+    background-color: var(--main-background-color);
+    box-shadow: 0px 0px 10px var(--effect-color);
+}
+.skillCradHover:hover .skillBodyHover{
+    color: var(--font-color);
+}
+.skillBodyHover{
+    transition: all 1s;
+}
+
+.fontHover{
+    transition: all 1s;
+}
+.skillCradHover:hover .fontHover{
+    color: var(--font-color);
+
+}
+.cardHeight{
+    height: 165px;
+}

@@ -1,0 +1,69 @@
+body{
+  background-color: var(--main-background-color);
+}
+.imageHover{
+    box-shadow: 8px 8px 8px var(--effect-color) ;
+}
+
+ .divcricle{
+    height: 500px;
+    width: 500px;
+    background-color: var(--cricle-Color);
+    background: linear-gradient(180deg, var(--cricle-Color), var(--effect-color));
+    position: absolute;
+    bottom: -60px;
+    right: -90px;
+    border-radius: 50%;
+    opacity: 0.02;
+    rotate: 35deg;
+    z-index: -1;
+}
+
+.divcricle1{
+    height: 450px;
+    width: 450px;
+    background-color: var(--cricle-Color);
+    background: linear-gradient(180deg, var(--cricle-Color), var(--effect-color));
+   
+    position: absolute;
+    top: -60px;
+    left: -90px;
+    border-radius: 50%;
+    opacity: 0.02;
+    rotate: 35deg;
+    z-index: -1;
+    
+}
+.fontheader{
+  text-shadow: none;
+  font-size: 4rem;
+}
+.fontheaderspan{
+  text-shadow: 0 0 5px #00d9ff, 0 0 15px var(--effect-color);
+  font-size: 4rem;
+}
+.minheight{
+  min-height: 79dvh;
+}
+.buttonhero{
+    background-color: transparent;
+    /* width: 200px;
+    height: 50px; */
+    border: 1px solid var(--effect-color);
+    color: var(--effect-color);
+    box-shadow: 0 0 15px var(--effect-color);
+    transition: all 0.2s;
+}
+.buttonhero:hover{
+    background-color: #1e1e1e;;
+    color: var(--font-color);
+    box-shadow: 0 0 30px var(--effect-color);
+}
+.homeHeader{
+  font-size: 1rem;
+}
+.modeBtn{
+  top: 10px;
+  right: 10px;
+  z-index: 4;
+}
