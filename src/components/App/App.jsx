@@ -22,8 +22,7 @@ export default function App() {
   return (
     
     <>
-    <Navbar/>
-    {/* <div className="main scrollspy-example" data-bs-spy="scroll" data-bs-target="#Navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"  tabIndex="0"> */}
+      <Navbar/>
       <AnimatedBg/>
       <Home/>
       <About/>
@@ -31,10 +30,7 @@ export default function App() {
       <Projects/>
       <Skills/>
       <Contact/>
-    {/* </div> */}
- 
-
-    <Footer/>
+      <Footer/>
     </>
   )
 }
