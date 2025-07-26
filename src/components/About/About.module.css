@@ -17,81 +17,6 @@
     height: 450px;
 }
 
-@media screen and (max-width: 304px) {
-    .colpos{
-        width:400px !important;
-    }
-    .imageDiv1{
-        top: 0px;
-        left: 0px;
-    }
-    .imageDiv2{
-        top: 20px;
-        left: 20px;
-    }
-}
-
-
-@media screen and (min-width: 603px) and (max-width: 794px) {
-     .colpos{
-        width:600px;
-    }
-    .imageDiv1{
-        top: 0px;
-        left: 0px;
-        margin: auto;
-    }
-    .imageDiv2{
-        top: 20px;
-        left: 20px;
-        margin: auto;
-    }
-}
-@media screen and (min-width: 497px) and (max-width: 602px) {
-    .colpos{
-        width:510px;
-    }
-    .imageDiv1{
-        top: 0px;
-        left: 0px;
-        margin: auto;
-    }
-    .imageDiv2{
-        top: 20px;
-        left: 20px;
-        margin: auto;
-    }
-}
-@media screen and (min-width: 438px) and (max-width: 498px) {
-    .colpos{
-        width:450px !important;
-    }
-    .imageDiv1{
-        top: 0px;
-        left: 0px;
-        margin: auto;
-    }
-    .imageDiv2{
-        top: 20px;
-        left: 20px;
-        margin: auto;
-    }
-}
-@media screen and (min-width: 318px) and (max-width: 439px) {
-    .colpos{
-        width:380px;
-    }
-    .imageDiv1{
-        top: 0px;
-        left: 0px;
-        margin: auto;
-    }
-    .imageDiv2{
-        top: 20px;
-        left: 20px;
-        margin: auto;
-    }
-}
 @media screen and (min-width: 0px) and (max-width: 319px) {
     .colpos{
         width:300px;
@@ -102,8 +27,71 @@
         margin: auto;
     }
     .imageDiv2{
+        top: 0px;
+        left: 0px;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 318px) and (max-width: 439px) {
+    .colpos{
+        width:370px;
+    }
+    .imageDiv1{
+        top: 0px;
+        left: 0px;
+        margin: auto;
+    }
+    .imageDiv2{
+        top: 0px;
+        left: 0px;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 438px) and (max-width: 498px) {
+    .colpos{
+        width:40px ;
+    }
+    .imageDiv1{
+        top: 0px;
+        left: 0px;
+        margin: auto;
+    }
+    .imageDiv2{
+        top: 0px;
+        left: 0px;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 497px) and (max-width: 602px) {
+    .colpos{
+        width:500px ;
+    }
+    .imageDiv1{
+        top: -7px;
+        left: -7px;
+        margin: auto;
+    }
+    .imageDiv2{
+        top: 7px;
+        left: 7px;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 603px) and (max-width: 794px) {
+     .colpos{
+        width:600px !important;
+    }
+    .imageDiv1{
+        top: 0px;
+        left: 0px;
+        margin: auto;
+    }
+    .imageDiv2{
         top: 20px;
         left: 20px;
         margin: auto;
     }
 }
+
+
+

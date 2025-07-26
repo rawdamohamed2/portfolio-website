@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { Link, Element } from 'react-scroll';
+import  { useEffect, useState } from 'react'
+import { Link} from 'react-scroll';
 
 
 export default function Navbar() {

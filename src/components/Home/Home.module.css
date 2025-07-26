@@ -1,37 +1,30 @@
-body{
-  background-color: var(--main-background-color);
-}
-.imageHover{
-    box-shadow: 8px 8px 8px var(--effect-color) ;
-}
 
  .divcricle{
     height: 500px;
     width: 500px;
     background-color: var(--cricle-Color);
-    background: linear-gradient(180deg, var(--cricle-Color), var(--effect-color));
+    /* background: linear-gradient(180deg, var(--cricle-Color), var(--effect-color)); */
     position: absolute;
     bottom: -60px;
     right: -90px;
     border-radius: 50%;
-    opacity: 0.02;
+    opacity: 0.3;
     rotate: 35deg;
-    z-index: -1;
+    z-index: -3;
 }
 
 .divcricle1{
     height: 450px;
     width: 450px;
     background-color: var(--cricle-Color);
-    background: linear-gradient(180deg, var(--cricle-Color), var(--effect-color));
-   
+    /* background: linear-gradient(180deg, var(--cricle-Color), var(--effect-color)); */
     position: absolute;
     top: -60px;
     left: -90px;
     border-radius: 50%;
-    opacity: 0.02;
+    opacity: 0.3;
     rotate: 35deg;
-    z-index: -1;
+    z-index: -3;
     
 }
 .fontheader{

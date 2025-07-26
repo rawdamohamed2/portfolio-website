@@ -11,22 +11,39 @@
   --linkColor: #00FFF7;            
   --font-color:#FFFFFF;
   --secondfont-color:  #B3B3B3;
-  --navColor: #03bfb2;
+  --navColor: #1B1b1b;
+  --hover-btn:#01e2da;
   --font-family:"Open Sans", sans-serif;
 }
-:root.light-mode {
-  --main-background-color: #f0f0f059;
+
+ :root.light-mode {
+  --main-background-color:  #e8eaf681 ;
   --background-color: #ffffff;
-  --Mbackground-color: #EDEDED;
-  --secondBackground-color: #EDEDED3d;
-  --cricle-Color: #e5e5e5;
-  --linkColor: #02b1ab;
-  --effect-color: #01e3db; /* نسخة أفتح من الـ teal */
-  --font-color: #000000;
-  --secondfont-color: #555555;
-  --navColor: #00a89c; /* أفتح برضو لكن نفس الاتجاه */
+  --Mbackground-color: #e8eaf69c;
+  --secondBackground-color: #f4f4f966 ;
+  --cricle-Color: #dcdde1;
+  --linkColor: #09adb0;
+  --effect-color: #09adb0;
+  --font-color: #1e1e1e;
+  --secondfont-color: #4a4a4a;
+  --navColor: #fafbfb;
+  --hover-btn:#09adb0;
   --font-family: "Open Sans", sans-serif;
 }
+/* :root.light-mode {
+  --main-background-color: #ffffff7b;
+  --background-color: #f1f2f2;
+  --Mbackground-color: #ffffff3d;
+  --secondBackground-color: #ededed50;
+  --cricle-Color: #dcdde1;
+  --linkColor: #05bab4;
+  --effect-color: #05bab4; 
+  --font-color: #1e1e1e;
+  --secondfont-color: #4a4a4a;
+  --navColor: #fafbfb; 
+  --hover-btn:#05bab4;
+  --font-family: "Open Sans", sans-serif;
+}  */
 
 body{
   background-color : var(--Mbackground-color);
@@ -48,7 +65,7 @@ html{
   font-size: 30px;
 }
 .navbar-scrolled {
-  background-color: var(--cricle-Color);
+  background-color: var(--navColor);
   transition: background-color 0.1s ease;
 }
 .navbar-default{
@@ -99,7 +116,7 @@ html{
   margin-top: 80px;
 }
 .buttonHover{
-    background-color: var(--navColor);
+    background-color: var(--hover-btn);
     color: var(--font-color);
     box-shadow: none;
     transition: all 0.2s;
@@ -111,7 +128,7 @@ html{
 }
 .buttonLight{
     background-color: transparent;
-    border: 1px solid var(--font-color);
+    border: 1px solid var(--font-color) ;
     color: var(--effect-color);
     box-shadow: none;
     transition: all 0.2s;

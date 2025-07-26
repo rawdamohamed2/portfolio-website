@@ -4,10 +4,11 @@ import fokir from '../../assets/images/fokir.png';
 import gallery from '../../assets/images/gallery.png';
 import weather from '../../assets/images/weather.png';
 import game from '../../assets/images/game.png';
-import { Element ,Link } from 'react-scroll';
+import { Element } from 'react-scroll';
 import Portfolio from '../../assets/images/Portfolio.png';
 import VanillaTilt from 'vanilla-tilt';
 import { useEffect } from 'react';
+import Calculator from '../../assets/images/Calculator.png';
 export default function Projects() {
   useEffect(() => {
   const elements = document.querySelectorAll("[data-tilt]");
@@ -132,6 +133,24 @@ export default function Projects() {
                   </div>
                   <div className="col-lg-5 col-md-12 ">
                        <a href="https://github.com/rawdamohamed2/portfolio-website"  className="btn buttonHover  w-100 ">GitHub</a>
+                  </div>
+                </div>             
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="5000">
+            <div className={`card cardbg border-0 rounded-4 overflow-hidden h-100 ${Projectstyle.projectHover}`} data-tilt data-tilt-max="10">
+              <img src={Calculator} className={`card-img-top w-100  ${Projectstyle.projectImg}`} alt="projectPhoto" loading='lazy'/>
+              <div className="card-body cardbg bodyHover">
+                <h4 className="card-title websitsTag text-center fontColor">My Calculator Website</h4>
+                <p className="card-text text-center secondfontColor ">A React-based calculator with a clean interface. It supports basic operations, keyboard input, history tracking, and memory functions. Deployed using GitHub Pages.</p>
+                <div className="buttons text-center row g-3">
+                  <div className="col-lg-7 col-md-12">
+                      <a href="https://rawdamohamed2.github.io/CodeAlpha_Calculator/"  className="btn buttonHover w-100">Live Demo</a>
+                  </div>
+                  <div className="col-lg-5 col-md-12 ">
+                       <a href="https://github.com/rawdamohamed2/CodeAlpha_Calculator"  className="btn buttonHover  w-100 ">GitHub</a>
                   </div>
                 </div>             
               </div>

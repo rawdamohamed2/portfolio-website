@@ -50,9 +50,9 @@ const AnimatedBg = () => {
         },
       },
       particles: {
-        color: { value:  particleColor },
+        color: { value:  particleColor  },
         links: {
-          color: linkColor,
+          color: linkColor ,
           distance: 150,
           enable: true,
           opacity: 0.4,

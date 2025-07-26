@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import styles from './Home.module.css';
-import { Element } from 'react-scroll';
+import { Link, Element } from 'react-scroll';
+import typescriptLight from '../../assets/images/typescriptLight.png'
+import tailwindcssLight from '../../assets/images/tailwindcssLight.png'
+import jqueryLight from '../../assets/images/jqueryLight.png'
+import jquery from '../../assets/images/jquery.png'
+import tailwindcss from '../../assets/images/tailwindcss.png'
+import typescript from '../../assets/images/typescript.png'
 
 export default function Home() {
   const fullText = "Developer";
@@ -38,11 +44,14 @@ export default function Home() {
 
     const toggleTheme = () => {
       document.documentElement.classList.toggle("light-mode");
+      document.getElementById('query').src = lightMode ? jquery : jqueryLight;
+      document.getElementById('tailwindcss').src = lightMode ? tailwindcss : tailwindcssLight;
+      document.getElementById('typescript').src = lightMode ? typescript : typescriptLight;
       setLightMode(!lightMode);
     };
     
   return (
-    <Element id="Home" name="Home" className={`position-relative overflow-hidden pb-5 start height mainBgcolor`}>
+    <Element id="Home" name="Home" className={`position-relative overflow-hidden pb-5 start height mainBgcolor `}>
       <div className={styles.divcricle}>
       </div>
       <div className={styles.divcricle1}>
@@ -63,7 +72,7 @@ export default function Home() {
                   <h2 className="text  display-5 display-md-0 fw-medium media fontdisplay">Frontend <span className='fontEffect'>{text}</span><span className="cursor">|</span></h2>
 
                   <div className="buttons mt-4 fontdisplay">
-                    <a href="#Projects" type="button" className={`btn ${styles.buttonhero} fontEffect btn-lg btn-md-sm  px-md-4 px-2 py-1 py-md-2`}>Explore My Work</a>
+                    <Link to="Projects" type="button" className={`btn ${styles.buttonhero} fontEffect btn-lg btn-md-sm  px-md-4 px-2 py-1 py-md-2`}>Explore My Work</Link>
                   </div>
                   
               </div>
