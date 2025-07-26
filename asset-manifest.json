@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CodeAlpha_portfoliowebsite/static/css/main.d06aff4d.css",
-    "main.js": "/CodeAlpha_portfoliowebsite/static/js/main.8886b984.js",
+    "main.js": "/CodeAlpha_portfoliowebsite/static/js/main.3d2c7a69.js",
     "static/media/fokir.png": "/CodeAlpha_portfoliowebsite/static/media/fokir.8eebfc2d40c2184289f9.png",
     "static/media/gallery.png": "/CodeAlpha_portfoliowebsite/static/media/gallery.e914f6f65730bf2682ef.png",
     "static/media/game.png": "/CodeAlpha_portfoliowebsite/static/media/game.ead2a8094cc417876275.png",
@@ -20,10 +20,10 @@
     "static/media/fa-v4compatibility.woff2": "/CodeAlpha_portfoliowebsite/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/CodeAlpha_portfoliowebsite/index.html",
     "main.d06aff4d.css.map": "/CodeAlpha_portfoliowebsite/static/css/main.d06aff4d.css.map",
-    "main.8886b984.js.map": "/CodeAlpha_portfoliowebsite/static/js/main.8886b984.js.map"
+    "main.3d2c7a69.js.map": "/CodeAlpha_portfoliowebsite/static/js/main.3d2c7a69.js.map"
   },
   "entrypoints": [
     "static/css/main.d06aff4d.css",
-    "static/js/main.8886b984.js"
+    "static/js/main.3d2c7a69.js"
   ]
 }
