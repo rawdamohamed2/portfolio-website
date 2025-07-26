@@ -1,28 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.17c9a3d1.css",
-    "main.js": "/portfolio-website/static/js/main.a277a2c6.js",
-    "static/media/fokir.png": "/portfolio-website/static/media/fokir.8eebfc2d40c2184289f9.png",
-    "static/media/gallery.png": "/portfolio-website/static/media/gallery.e914f6f65730bf2682ef.png",
-    "static/media/game.png": "/portfolio-website/static/media/game.ead2a8094cc417876275.png",
-    "static/media/weather.png": "/portfolio-website/static/media/weather.f2dea314c5a35381545b.png",
-    "static/media/Portfolio.png": "/portfolio-website/static/media/Portfolio.312779fdf734b7f77bae.png",
-    "static/media/fa-solid-900.ttf": "/portfolio-website/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
-    "static/media/fa-brands-400.ttf": "/portfolio-website/static/media/fa-brands-400.1815e00441357e01619e.ttf",
-    "static/media/fa-solid-900.woff2": "/portfolio-website/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
-    "static/media/curd.png": "/portfolio-website/static/media/curd.44e5c7443e5d1ed10282.png",
-    "static/media/profile.jpg": "/portfolio-website/static/media/profile.cade1185b1d5e24e408a.jpg",
-    "static/media/fa-brands-400.woff2": "/portfolio-website/static/media/fa-brands-400.c210719e60948b211a12.woff2",
-    "static/media/fa-regular-400.ttf": "/portfolio-website/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
-    "static/media/fa-regular-400.woff2": "/portfolio-website/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
-    "static/media/fa-v4compatibility.ttf": "/portfolio-website/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
-    "static/media/fa-v4compatibility.woff2": "/portfolio-website/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
-    "index.html": "/portfolio-website/index.html",
-    "main.17c9a3d1.css.map": "/portfolio-website/static/css/main.17c9a3d1.css.map",
-    "main.a277a2c6.js.map": "/portfolio-website/static/js/main.a277a2c6.js.map"
+    "main.css": "/CodeAlpha_Calculator/static/css/main.4a40d3e2.css",
+    "main.js": "/CodeAlpha_Calculator/static/js/main.21a2646d.js",
+    "static/media/fa-solid-900.ttf": "/CodeAlpha_Calculator/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/CodeAlpha_Calculator/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/CodeAlpha_Calculator/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/CodeAlpha_Calculator/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/CodeAlpha_Calculator/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/fa-regular-400.woff2": "/CodeAlpha_Calculator/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/CodeAlpha_Calculator/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/CodeAlpha_Calculator/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/CodeAlpha_Calculator/index.html",
+    "main.4a40d3e2.css.map": "/CodeAlpha_Calculator/static/css/main.4a40d3e2.css.map",
+    "main.21a2646d.js.map": "/CodeAlpha_Calculator/static/js/main.21a2646d.js.map"
   },
   "entrypoints": [
-    "static/css/main.17c9a3d1.css",
-    "static/js/main.a277a2c6.js"
+    "static/css/main.4a40d3e2.css",
+    "static/js/main.21a2646d.js"
   ]
 }
