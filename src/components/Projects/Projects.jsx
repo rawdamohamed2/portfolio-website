@@ -129,10 +129,10 @@ export default function Projects() {
                 <p className="card-text text-center secondfontColor ">My first React project is a responsive portfolio site using React, Bootstrap, and JavaScript. It features smooth scroll, active link highlighting, dark mode, animations, a validated contact form, and is hosted on GitHub Pages.</p>
                 <div className="buttons text-center row g-3">
                   <div className="col-lg-7 col-md-12">
-                      <a href="https://rawdamohamed2.github.io/portfolio-website/"  className="btn buttonHover w-100">Live Demo</a>
+                      <a href="https://rawdamohamed2.github.io/CodeAlpha_portfoliowebsite/"  className="btn buttonHover w-100">Live Demo</a>
                   </div>
                   <div className="col-lg-5 col-md-12 ">
-                       <a href="https://github.com/rawdamohamed2/portfolio-website"  className="btn buttonHover  w-100 ">GitHub</a>
+                       <a href="https://github.com/rawdamohamed2/CodeAlpha_portfoliowebsite"  className="btn buttonHover  w-100 ">GitHub</a>
                   </div>
                 </div>             
               </div>
