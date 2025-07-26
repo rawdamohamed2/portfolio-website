@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.ddc11d8a.css",
-    "main.js": "/portfolio-website/static/js/main.4bbbd059.js",
-    "static/media/fokir.png": "/portfolio-website/static/media/fokir.8eebfc2d40c2184289f9.png",
-    "static/media/gallery.png": "/portfolio-website/static/media/gallery.e914f6f65730bf2682ef.png",
-    "static/media/game.png": "/portfolio-website/static/media/game.ead2a8094cc417876275.png",
-    "static/media/weather.png": "/portfolio-website/static/media/weather.f2dea314c5a35381545b.png",
-    "static/media/Portfolio.png": "/portfolio-website/static/media/Portfolio.312779fdf734b7f77bae.png",
-    "static/media/fa-solid-900.ttf": "/portfolio-website/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
-    "static/media/fa-brands-400.ttf": "/portfolio-website/static/media/fa-brands-400.1815e00441357e01619e.ttf",
-    "static/media/Calculator.png": "/portfolio-website/static/media/Calculator.0d9ff57a042985417a60.png",
-    "static/media/fa-solid-900.woff2": "/portfolio-website/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
-    "static/media/curd.png": "/portfolio-website/static/media/curd.44e5c7443e5d1ed10282.png",
-    "static/media/profile.jpg": "/portfolio-website/static/media/profile.cade1185b1d5e24e408a.jpg",
-    "static/media/fa-brands-400.woff2": "/portfolio-website/static/media/fa-brands-400.c210719e60948b211a12.woff2",
-    "static/media/fa-regular-400.ttf": "/portfolio-website/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
-    "static/media/fa-regular-400.woff2": "/portfolio-website/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
-    "static/media/fa-v4compatibility.ttf": "/portfolio-website/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
-    "static/media/fa-v4compatibility.woff2": "/portfolio-website/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
-    "index.html": "/portfolio-website/index.html",
-    "main.ddc11d8a.css.map": "/portfolio-website/static/css/main.ddc11d8a.css.map",
-    "main.4bbbd059.js.map": "/portfolio-website/static/js/main.4bbbd059.js.map"
+    "main.css": "/CodeAlpha_portfoliowebsite/static/css/main.d06aff4d.css",
+    "main.js": "/CodeAlpha_portfoliowebsite/static/js/main.8886b984.js",
+    "static/media/fokir.png": "/CodeAlpha_portfoliowebsite/static/media/fokir.8eebfc2d40c2184289f9.png",
+    "static/media/gallery.png": "/CodeAlpha_portfoliowebsite/static/media/gallery.e914f6f65730bf2682ef.png",
+    "static/media/game.png": "/CodeAlpha_portfoliowebsite/static/media/game.ead2a8094cc417876275.png",
+    "static/media/weather.png": "/CodeAlpha_portfoliowebsite/static/media/weather.f2dea314c5a35381545b.png",
+    "static/media/Portfolio.png": "/CodeAlpha_portfoliowebsite/static/media/Portfolio.312779fdf734b7f77bae.png",
+    "static/media/fa-solid-900.ttf": "/CodeAlpha_portfoliowebsite/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/CodeAlpha_portfoliowebsite/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/Calculator.png": "/CodeAlpha_portfoliowebsite/static/media/Calculator.0d9ff57a042985417a60.png",
+    "static/media/fa-solid-900.woff2": "/CodeAlpha_portfoliowebsite/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/curd.png": "/CodeAlpha_portfoliowebsite/static/media/curd.44e5c7443e5d1ed10282.png",
+    "static/media/profile.jpg": "/CodeAlpha_portfoliowebsite/static/media/profile.cade1185b1d5e24e408a.jpg",
+    "static/media/fa-brands-400.woff2": "/CodeAlpha_portfoliowebsite/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/CodeAlpha_portfoliowebsite/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/fa-regular-400.woff2": "/CodeAlpha_portfoliowebsite/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/CodeAlpha_portfoliowebsite/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/CodeAlpha_portfoliowebsite/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/CodeAlpha_portfoliowebsite/index.html",
+    "main.d06aff4d.css.map": "/CodeAlpha_portfoliowebsite/static/css/main.d06aff4d.css.map",
+    "main.8886b984.js.map": "/CodeAlpha_portfoliowebsite/static/js/main.8886b984.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddc11d8a.css",
-    "static/js/main.4bbbd059.js"
+    "static/css/main.d06aff4d.css",
+    "static/js/main.8886b984.js"
   ]
 }
